@@ -26,7 +26,7 @@
 				<h1 class="post-title"><a href="#">My way of reducing NoSql "<i>key</i>" overhead through reference object</a></h1>
 			</header>
 			<div class="post-content">
-				<p>There is a lot of overhead in NoSql databases like MongoDB as it will save all the keys along with values. If the length of key is more then it takes more memory.If indexes has to fit in RAM for performance, then using big key names costs more. To avoid this we usually shorten the key names like </br><span class="example">'fullName' -> 'fn', 'address' -> 'adr'...</span>etc. </br>But it creates a lot of confusion and if we do not remeber the shortened key name, we cannot store or retrieve the data properly. </p>
+				<p>There is a lot of overhead in NoSql databases like MongoDB as it saves all the keys along with values. If the length of key is more, then it takes more memory. If indexes has to fit in RAM for performance, then using big key names costs more. To avoid this we usually shorten the key names like </br><span class="example">'fullName' -> 'fn', 'address' -> 'adr'...</span>etc. </br>But it creates a lot of confusion and if we do not remeber the shortened key name, we cannot store or retrieve the data properly. </p>
 				<p>To avoid this confusion we can use a <i>reference object</i> and store the shortened key names as values.</p>
 				<img class="post-image" src="images/nosql-object-reference-data-store.png">
 				<p>while inserting data into the database and getting it from the database we refer <i>reference object</i>. </p></br>
