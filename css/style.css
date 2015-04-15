@@ -1,0 +1,193 @@
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset {
+	border: 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+body {
+	background-color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+}
+p{
+	margin: 10px 0px;
+}
+
+#body-wrapper {
+	width: 980px;
+	margin: 0 auto;
+}
+#header{
+	margin-top: 20px;
+}
+#logo{
+	margin-left: 30px;
+}
+#logo img{
+	width: 175px;
+}
+
+#hire-me{
+	text-align: center;
+  	position: relative;
+  	display: inline-block;
+  	border: 1px solid rgb(52, 52, 50);
+  	background-color: rgb(255, 224, 0);
+  	padding: 0px 10px;
+  	line-height: 20px;
+  	/*font-weight: bold;*/
+  	float: right;
+  	font-size: 11px;
+  	width: 140px;
+  	border-radius: 3px;
+}
+#hire-me:hover #em-ad{
+	visibility: visible;
+}
+#hire-me:hover #hire{
+	visibility: hidden;
+}
+#hire-me img{
+	width: 150px;
+}
+#hire{
+
+}
+#hire p{
+	margin: 6px 0px;
+}
+
+#em-ad{
+	position: absolute;
+	left: 4px;
+  	top: 16px;
+	visibility: hidden;
+}
+.hire-me-text{
+	font-size: 18px;
+	font-family: serif;
+	/*font-weight: normal;*/
+}
+
+/*#em-ad img{	
+	visibility: hidden;
+}
+#em-ad img:hover{
+	visibility: visible;
+}*/
+#content {
+	float: left;
+	margin: 30px 0 30px;
+	padding: 20px 35px;
+	width: 600px;
+}
+.post {
+	margin-bottom: 40px;
+}
+.post-title {
+	margin: 0 0 5px;
+  	padding: 0;
+  	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: normal;
+  	font-size: 20px;
+  	line-height: 30px;
+}
+.post-title a {
+	text-decoration: none;
+	color: #061F91;
+}
+.post-image {
+
+}
+.post-content{
+	line-height: 23px;
+}
+.example{
+	font-style: italic;
+	margin: 10px 0px;
+	display: inline-block;
+}
+
+#sidebar {
+	width: 280px;
+	float: right;
+	margin: 30px 0 30px;
+}
+#profile-image img{
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	margin: 20px auto;
+}
+#profile-image img:hover{
+	/*-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	filter: grayscale(0%);*/
+}
+#profile-info{
+	text-align: center;
+	line-height: 25px;
+}
+.widget {
+	background: #fff;
+	margin: 0 0 30px;
+	padding: 10px 20px;
+	text-align: center;
+	/*-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);*/
+}
+.hashlogger{
+	width: 130px;
+}
+.widgettitle {
+	margin: 0 0 5px;
+	padding: 0px;
+	text-align: left;
+}
+#my-name{
+	margin-bottom: 10px;
+}
+#check-logger{
+	/*background-color: lightgrey;*/
+	font-style: italic;
+}
+#check-logger .hashlogger{
+	position: relative;
+	top: 8px;
+  	left: 10px;
+}
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; zoom: 1; }
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    #logo {
+		margin-left: 0px; 
+	}
+	#hire-me {
+		right: 0px;
+		top: 0px;
+	}
+}
